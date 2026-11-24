@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offline SubPlayer</string>
+    <string name="status_initial">Pilih video dan file .srt untuk mulai</string>
+    <string name="status_preparing_model">Menyiapkan paket terjemahan offline…</string>
+    <string name="status_model_ready">Terjemahan offline siap (%1$s → %2$s)</string>
+    <string name="status_model_error_default">cek koneksi saat unduh model</string>
+    <string name="status_model_error">Gagal menyiapkan bahasa: %1$s</string>
+    <string name="status_loaded_cues">Memuat %1$d baris subtitle</string>
+    <string name="status_no_subtitles_to_save">Belum ada subtitle untuk disimpan</string>
+    <string name="status_srt_saved_reloaded">File .srt disimpan &amp; dimuat ulang</string>
+    <string name="status_srt_save_error">Gagal menyimpan .srt: %1$s</string>
+    <string name="status_translating_progress">Menerjemahkan subtitle offline… %1$d%%</string>
+    <string name="status_translation_done">Terjemahan offline selesai (%1$s → %2$s)</string>
+    <string name="label_auto">Auto</string>
+    <string name="action_swap_languages">Tukar Bahasa</string>
+    <string name="action_pick_video">Video</string>
+    <string name="action_pick_srt">SRT</string>
+    <string name="action_play_pause">Play/Pause</string>
+    <string name="action_save">Simpan</string>
+    <string name="action_close">Tutup</string>
+    <string name="dialog_pick_source_title">Pilih Bahasa Asal</string>
+    <string name="dialog_pick_target_title">Pilih Bahasa Tujuan</string>
+    <string name="dialog_search_language_hint">Cari bahasa atau kode…</string>
+    <string name="gesture_seek_format">Seek → %1$s</string>
+    <string name="gesture_brightness_format">Kecerahan %1$d%%</string>
+    <string name="gesture_volume_format">Volume %1$d%%</string>
+    <string name="default_subtitle_name">Subtitle.srt</string>
+    <string name="default_translated_filename">terjemahan.srt</string>
+    <string name="default_suggested_export_name">subtitle_id.srt</string>
+</resources>

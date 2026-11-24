@@ -1,11 +1,11 @@
-<div align="center">
+# Offline SubPlayer (Android)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+An offline-capable Android video player built with **Kotlin**, **Jetpack Compose (Material 3)**, **Media3 ExoPlayer**, and **Google ML Kit Translation**.
 
-  <h1>Built with AI Studio</h2>
-
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Features
+- Local video playback via Storage Access Framework (`OpenDocument`) with Media3 ExoPlayer.
+- Gesture controls: horizontal swipe to seek with live time preview, vertical swipe on the left half for screen brightness, and vertical swipe on the right half for media volume.
+- `.srt` subtitle loading, parsing, and synchronized overlay rendering.
+- Automatic offline subtitle translation using ML Kit Translation with cached translations and progress indicator.
+- Searchable source and target language selection dialogs, language swap button, and auto-translate toggle.
+- Export translated subtitles to a new `.srt` file via `CreateDocument` with automatic reload.
